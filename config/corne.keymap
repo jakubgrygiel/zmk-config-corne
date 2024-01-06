@@ -51,7 +51,7 @@
 
             bindings = <
 &kp TAB    &trans  &kp EXCLAMATION  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp UNDERSCORE          &kp MINUS     &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp SLASH     &kp DEL
-&kp LCTRL  &trans  &kp AMPERSAND    &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PLUS                &kp EQUAL     &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp ASTERISK  &kp trans
+&kp LCTRL  &trans  &kp AMPERSAND    &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PLUS                &kp EQUAL     &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp ASTERISK  &kp SQT
 &kp LSHFT  &trans  &kp PIPE         &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp NON_US_BACKSLASH    &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD    &kp TILDE
                                     &kp LGUI              &trans                 &kp SPACE               &kp RET       &trans        &kp RALT
             >;
@@ -59,9 +59,9 @@
 
         both_layer {
             bindings = <
-&trans  &bt BT_CLR    &trans  &trans  &trans  &trans    &kp C_MUTE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &trans             &trans      &trans
-&trans  &bt BT_SEL 0  &trans  &trans  &trans  &trans    &kp C_PREV  &kp C_PLAY_PAUSE   &kp C_NEXT       &trans             &trans      &trans
-&trans  &bt BT_SEL 1  &trans  &trans  &trans  &trans    &trans      &trans             &trans           &trans             &trans      &trans
+&trans  &bt BT_CLR    &trans  &trans  &trans  &trans    &kp C_MUTE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &trans  &trans  &trans
+&trans  &bt BT_SEL 0  &trans  &trans  &trans  &trans    &kp C_PREV  &kp C_PLAY_PAUSE   &kp C_NEXT       &trans  &trans  &trans
+&trans  &bt BT_SEL 1  &trans  &trans  &trans  &trans    &trans      &trans             &trans           &trans  &trans  &trans
                               &trans  &trans  &trans    &trans      &trans             &trans
             >;
         };
